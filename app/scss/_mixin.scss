@@ -1,0 +1,43 @@
+/* 576px */
+@media only screen and (min-width: 36em){  /* Small devices (portrait tablets and large phones)*/
+    .yot-overlay-mid-child{
+        width: 370px !important;
+    }
+}
+                                /* 768px */
+@media only screen and (min-width: 48em){ /* Medium devices (landscape tablets) */
+    // Dashboard
+    .dashboard-parent{
+        display: flex;
+    }
+
+    .dashboard-left{
+        width: 50% !important;
+    }
+
+    .dashboard-right{
+        width: 50% !important;
+    }
+
+    // Dashboard Form New User
+    .dashboard-new-user-form{
+        width: 500px !important;
+    }
+}
+
+                                /* 992px */
+@media only screen and (min-width: 62em){ /* Large devices (laptops/desktops) */
+    // Dashboard
+    .yot-overlay-mid-dashboard-form{
+        width: 720px !important;
+    }
+}
+
+                                /* 1200px */
+@media only screen and (min-width: 75em){  /* Extra large devices (large laptops and desktops, 1200px and up) */
+
+}
+                                /* 1400px */
+@media only screen and (min-width: 87.5em){ /* Tv */
+
+}

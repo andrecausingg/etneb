@@ -1,0 +1,18 @@
+<!-- Title -->
+<h2 class="yot-tc-yellow ">Requirments Needed</h2>
+
+<span>Valid ID (Ex. Drivers License, Government IDs) <br> Only .jpg, .jpeg, .png files are allowed</span>
+
+<!-- Start of Name -->
+<div class="yot-row yot-mb-16 yot-flex-jc-c yot-mt-24">
+    <!-- Front I.D -->
+    <div class="yot-col-33-33 yot-pa-4">
+        <label for="">FRONT I.D</label>
+        <input class="yot-form-input" type="file" id="frontID">
+    </div>
+    <!-- Back I.D -->
+    <div class="yot-col-33-33 yot-pa-4">
+        <label for="">BACK I.D</label>
+        <input class="yot-form-input" type="file" id="backID">
+    </div>
+</div> <!-- End of Name -->

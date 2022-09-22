@@ -1,0 +1,63 @@
+// Primary Btn
+.yot-btn-primary{
+    border:none;
+    display:inline-block;
+    padding:12px 24px;
+    cursor:pointer;
+    font-weight: bolder;
+    border-radius: 10px;
+
+    // width: 100%;
+    font-size: $yot-fs-sm;
+    background-color:$yot-purple;
+    color: $yot-white;
+}
+
+.yot-btn-primary:hover{
+    // background-color: $yot-very-dark-cyan;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+// Secondary Btn
+.yot-btn-secondary{
+    border:none;
+    display:inline-block;
+    padding:12px 24px;
+    cursor:pointer;
+    font-weight: bolder;
+    border-radius: 10px;
+
+    // width: 100%;
+    font-size: $yot-fs-sm;
+    background-color:$yot-yellow;
+    color: $yot-black;
+}
+
+.yot-btn-secondary:hover{
+    background-color: hsl(41, 100%, 65%);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+// Shape of Btn
+.yot-btn-round{
+    border-radius: 25px;
+}
+
+.yot-btn-active{
+    border:none;
+    display:inline-block;
+    padding:12px 24px;
+    cursor:pointer;
+    font-weight: bolder;
+    border-radius: 10px;
+
+    // width: 100%;
+    font-size: $yot-fs-sm;
+    background-color: $yot-green;
+    color: $yot-black;
+}
+
+.yot-btn-active:hover{
+    background-color: $yot-green;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
