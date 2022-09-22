@@ -123,48 +123,103 @@
                     <!-- Etneb I.D -->
                     <div class="yot-bg-white yot-flex yot-flex-fd-c yot-pa-16">
                         <label for="">EtnebID#</label>
-                        <input class="yot-form-input-primary-bg-white yot-w-100"  type="text" name="" id="">
+                        <input class="yot-form-input-primary-bg-white yot-w-100"  type="text" id="" 
+                        value="<?php
+                                require_once("./app/php/dashboard-profile-personal-dataMF.php");
+                                $classPersonalData = new classPersonalData();
+                                echo $classPersonalData->getEtnebID();
+                            ?>">
                     </div>
+
                     <!-- First Name -->
                     <div class="yot-bg-white yot-flex yot-flex-fd-c yot-pa-16">
                         <label for="">First Name</label>
-                        <input class="yot-form-input-primary-bg-white yot-w-100"  type="text" name="" id="">
+                        <input class="yot-form-input-primary-bg-white yot-w-100"  type="text" id="" 
+                        value="<?php
+                                require_once("./app/php/dashboard-profile-personal-dataMF.php");
+                                $classPersonalData = new classPersonalData();
+                                echo $classPersonalData->getFName();
+                            ?>">
                     </div>
+
                     <!-- Middle Name -->
                     <div class="yot-bg-white yot-flex yot-flex-fd-c yot-pa-16">
                         <label for="">Middle Name</label>
-                        <input class="yot-form-input-primary-bg-white yot-w-100" type="text" name="" id="">
+                        <input class="yot-form-input-primary-bg-white yot-w-100" type="text" id=""
+                        value="<?php
+                                require_once("./app/php/dashboard-profile-personal-dataMF.php");
+                                $classPersonalData = new classPersonalData();
+                                echo $classPersonalData->getMName();
+                            ?>">
                     </div>
+                    
                     <!-- Last Name -->
                     <div class="yot-bg-white yot-flex yot-flex-fd-c yot-pa-16">
                         <label for="">Last Name</label>
-                        <input class="yot-form-input-primary-bg-white yot-w-100"  type="text" name="" id="">
+                        <input class="yot-form-input-primary-bg-white yot-w-100"  type="text" id=""
+                        value="<?php
+                                require_once("./app/php/dashboard-profile-personal-dataMF.php");
+                                $classPersonalData = new classPersonalData();
+                                echo $classPersonalData->getLName();
+                            ?>">
                     </div>
+
                     <!-- Birth Date -->
                     <div class="yot-bg-white yot-flex yot-flex-fd-c yot-pa-16">
                         <label for="">Birth Date</label>
-                        <input class="yot-form-input-primary-bg-white yot-w-100" type="text" name="" id="">
+                        <input class="yot-form-input-primary-bg-white yot-w-100" type="date" id=""
+                        value="<?php
+                                require_once("./app/php/dashboard-profile-personal-dataMF.php");
+                                $classPersonalData = new classPersonalData();
+                                echo $classPersonalData->getBirthDate();
+                            ?>">
                     </div>
+
                     <!-- Gender -->
                     <div class="yot-bg-white yot-flex yot-flex-fd-c yot-pa-16">
                         <label for="">Gender</label>
-                        <input class="yot-form-input-primary-bg-white yot-w-100" type="text" name="" id="">
+                        <select class="yot-form-input-primary-bg-white yot-w-100" id="gender" required>
+                            <?php
+                                require_once("./app/php/dashboard-profile-personal-dataMF.php");
+                                $classPersonalData = new classPersonalData();
+                                echo $classPersonalData->getGender();
+                            ?>
+                        </select>
                     </div>
+
                     <!-- Address 1 -->
                     <div class="yot-bg-white yot-flex yot-flex-fd-c yot-pa-16">
                         <label for="">Address 1</label>
-                        <input class="yot-form-input-primary-bg-white yot-w-100" type="text" name="" id="">
+                        <input class="yot-form-input-primary-bg-white yot-w-100" type="text" id=""
+                        value="<?php
+                                require_once("./app/php/dashboard-profile-personal-dataMF.php");
+                                $classPersonalData = new classPersonalData();
+                                echo $classPersonalData->getAddress1();
+                            ?>">
                     </div>
+                    
                     <!-- Address 2 -->
                     <div class="yot-bg-white yot-flex yot-flex-fd-c yot-pa-16">
                         <label for="">Address 2</label>
-                        <input class="yot-form-input-primary-bg-white yot-w-100" type="text" name="" id="">
+                        <input class="yot-form-input-primary-bg-white yot-w-100" type="text" id=""
+                        value="<?php
+                                require_once("./app/php/dashboard-profile-personal-dataMF.php");
+                                $classPersonalData = new classPersonalData();
+                                echo $classPersonalData->getAddress2();
+                            ?>">
                     </div>
+
                     <!-- Baranggay -->
                     <div class="yot-bg-white yot-flex yot-flex-fd-c yot-pa-16">
                         <label for="">Baranggay</label>
-                        <input class="yot-form-input-primary-bg-white yot-w-100" type="text" name="" id="">
+                        <input class="yot-form-input-primary-bg-white yot-w-100" type="text" id=""
+                        value="<?php
+                                require_once("./app/php/dashboard-profile-personal-dataMF.php");
+                                $classPersonalData = new classPersonalData();
+                                echo $classPersonalData->getBaranggay();
+                            ?>">
                     </div>
+
                     <!-- Region -->
                     <div class="yot-bg-white yot-flex yot-flex-fd-c yot-pa-16">
                         <label for="">Region</label>
